@@ -1,0 +1,890 @@
+.buton {
+    position: absolute;
+    height: 5.3vh;
+    width: 17vh;
+    background-color: rgb(140, 223, 32);
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    top: 27vh;
+    right: 8.5vh;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+#abcd {
+    text-decoration: none;
+    color: black;
+}
+
+.buton:hover {
+    background-color: rgb(30, 121, 226);
+    color: white;
+    animation-name: abcd;
+    animation-duration: 1s;
+}
+
+@keyframes abcd {
+    to {
+        height: 6vh;
+        width: 19vh;
+        right: 8vh;
+    }
+}
+
+li:hover {
+    text-decoration: underline blue;
+}
+
+.footer li:hover {
+    text-decoration: underline black;
+}
+
+#button1 p:hover {
+    background-color: blue;
+    color: white;
+    animation-name: anime1;
+    animation-duration: 1s;
+}
+
+#button2:hover {
+    background-color: blue;
+    color: white;
+    animation-name: anime1;
+    animation-duration: 1s;
+}
+
+.xen:hover {
+    background-color: blue;
+    color: white;
+}
+
+.but1:hover {
+    background-color: blue;
+    color: white;
+    animation-name: anime1;
+    animation-duration: 1s;
+}
+
+.box1:hover {
+    background-color: blue;
+    color: white;
+    animation-name: anime1;
+    animation-duration: 1s;
+}
+
+.box1b:hover {
+    background-color: blue;
+    color: white;
+    animation-name: anime1;
+    animation-duration: 1s;
+}
+
+.rec1:hover {
+    background-color: blue;
+    color: white;
+    animation-name: anime1;
+    animation-duration: 1s;
+}
+
+.rec2:hover {
+    background-color: blue;
+    color: white;
+    animation-name: anime1;
+    animation-duration: 1s;
+}
+
+.signup:hover {
+    background-color: blue;
+    color: white;
+    animation-name: anime1;
+    animation-duration: 1s;
+}
+
+.explore:hover {
+    background-color: blue;
+    color: white;
+    animation-name: anime1;
+    animation-duration: 1s;
+}
+
+.military:hover {
+    background-color: blue;
+    color: white;
+}
+
+.personal:hover {
+    background-color: blue;
+    color: white;
+}
+
+#logo:hover {
+    animation-name: logo;
+    animation-duration: 1s;
+}
+
+@keyframes anime1 {
+
+    /* from {
+        width: 192px;;
+    } */
+    to {
+        width: 210px;
+        height: 45px;
+    }
+}
+
+@keyframes logo {
+    to {
+        height: 150px;
+        width: auto;
+    }
+}
+
+/* <!-- Now Animation Finished --> */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#logo {
+    position: absolute;
+    height: 138px;
+    width: auto;
+    left: -31px;
+    top: 15px;
+}
+
+#head1 {
+    position: absolute;
+    left: 12vw;
+    top: 2.5vw;
+    width: 45vh;
+    font-size: 45px;
+    color: white;
+    text-decoration: underline;
+}
+
+ul {
+    position: absolute;
+    right: 14vw;
+    top: 2vw;
+}
+
+ul li {
+    padding: 30px;
+    display: inline-block;
+    font-size: 22px;
+}
+
+#img2 {
+    position: absolute;
+    height: 15vw;
+    width: 16vw;
+    right: 0px;
+    top: 0px;
+}
+
+#name {
+    position: absolute;
+    top: 17vw;
+    left: 29vw;
+}
+
+#name span {
+    padding: 20px;
+    font-size: 46px;
+    font-weight: normal;
+}
+
+#search {
+    height: 40px;
+    width: 400px;
+    position: absolute;
+    top: 35vw;
+    left: 10vh;
+    font-weight: bold;
+    font-size: large;
+}
+
+#button1 {
+    position: absolute;
+    top: 40.5vw;
+    left: 10vh;
+    height: 40px;
+    width: 153px;
+    background-color: white;
+    color: black;
+}
+
+#button1 p {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 47px;
+    width: 192px;
+}
+
+#button2 {
+    position: absolute;
+    top: -0.01vw;
+    left: 36vh;
+    height: 40px;
+    width: 162px;
+    text-align: center;
+}
+
+#button2 p {
+    height: 20px;
+}
+
+#drone1 {
+    position: absolute;
+    height: 26vw;
+    width: 50vw;
+    left: 37vw;
+    top: 23vw;
+}
+
+#phan {
+    position: absolute;
+    top: 47vw;
+    right: 68px;
+    font-weight: normal;
+    font-size: 39px;
+}
+
+#drone2 {
+    position: absolute;
+    height: 15vw;
+    width: auto;
+    left: 8vw;
+    top: 46vw;
+    background-color: white;
+    color: black;
+    /* height: 47px; */
+}
+
+.xen {
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 51vw;
+    right: 80px;
+    font-weight: normal;
+    font-size: 39px;
+    height: 10vh;
+    width: 30vh;
+    border-radius: 35px;
+}
+
+#xan {
+    font-size: 30px;
+    font-weight: normal;
+    padding: 18px
+}
+
+#ring {
+    position: absolute;
+    top: 44vw;
+    right: 37vw;
+    height: 57vh;
+    width: auto;
+}
+
+#ringtext {
+    position: absolute;
+    top: 55vw;
+    right: 52vw;
+    height: 57vh;
+    width: 30px;
+}
+
+.second {
+    position: absolute;
+    top: 150vh;
+
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+#h1a {
+    position: relative;
+    width: 53vh;
+    padding-left: 8%;
+    line-height: 43px;
+}
+
+.round {
+    background-color: white;
+    position: absolute;
+    height: 5vh;
+    width: 5vh;
+    border-radius: 40px;
+    left: 49px;
+    top: 13px;
+}
+
+.but1 {
+    margin: 25px;
+    margin-left: 110px;
+    background-color: white;
+    color: black;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    padding: 9px;
+}
+
+.but1 p {
+    font-size: 20px;
+    height: 10px;
+    font-weight: bolder;
+}
+
+#drone3 {
+    height: 70vh;
+    width: 100vh;
+    position: absolute;
+    top: -6vh;
+    right: 1vw;
+}
+
+.flex {
+    display: flex;
+    position: absolute;
+    top: 31vw;
+    right: 6vw;
+}
+
+.flex span {
+    padding-left: 7px;
+    padding: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.military {
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 50px;
+    width: 250px;
+    top: 38vw;
+    left: 66vw;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 6px;
+    border: 3px solid red;
+    border-radius: 20px;
+}
+
+.tri {
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-bottom: 200px solid transparent;
+    border-left: 471px solid rgb(25, 21, 38);
+    margin-top: 20vh;
+}
+
+.box1 {
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 170px;
+    margin-left: -71vh;
+    margin-top: 9vh;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 10px;
+    border-radius: 19px;
+}
+
+.box pre {
+    font-weight: bolder;
+}
+
+#boxh1 {
+    position: relative;
+    color: white;
+    width: 61vh;
+    top: -26vh;
+    text-align: initial;
+    left: -1vw;
+    font-size: 34px;
+}
+
+#pre1a {
+    position: relative;
+    top: -13vh;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: start;
+
+}
+
+.dronepics {
+    position: absolute;
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    top: 124vw;
+}
+
+#d1 {
+    position: absolute;
+    height: 20vw;
+    width: 20vw;
+    right: 21vh;
+    top: -30px;
+}
+
+#d2 {
+    position: absolute;
+    height: 18vw;
+    width: 22vw;
+    right: 45wh;
+    top: -38px;
+    right: 85vh;
+}
+
+#d3 {
+    position: absolute;
+    height: 18vw;
+    width: 22vw;
+    left: 5vh;
+    top: -26px;
+    right: 85vh;
+    border-radius: 150px 0px 0px 0px;
+}
+
+#dh1,
+#dh2,
+#dh3 {
+    position: absolute;
+}
+
+#dh1 {
+    left: 10vh;
+    top: 33dvh;
+}
+
+#dh2 {
+    right: 9vw;
+    top: 33vh;
+}
+
+#dh3 {
+    right: 41vw;
+    top: 33vh;
+}
+
+.page3 {
+    position: absolute;
+    height: 100vw;
+    width: 100%;
+    background-color: black;
+    color: white;
+    top: 143vw;
+}
+
+.circle2 {
+    height: 5vh;
+    width: 5vh;
+    background-color: white;
+    position: absolute;
+    top: 20vh;
+    left: 10vh;
+    border-radius: 50px;
+}
+
+#hcir {
+    position: absolute;
+    top: 20vh;
+    left: 20vh;
+    width: 53vh;
+
+}
+
+#pic11 {
+    position: absolute;
+    height: 70vh;
+    width: 100vh;
+    left: 49vw;
+    top: 22vh;
+    border-radius: 200px;
+
+}
+
+.flex3 {
+    display: flex;
+    position: absolute;
+    top: 31vw;
+    right: 6vw;
+}
+
+.flex3 span {
+    padding-left: 7px;
+    padding: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 24vh;
+}
+
+.personal {
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 50px;
+    width: 282px;
+    top: 49vw;
+    left: 64vw;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 6px;
+    border: 3px solid red;
+    border-radius: 20px;
+}
+
+.tri2 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-bottom: 200px solid transparent;
+    border-left: 471px solid rgb(25, 21, 38);
+    margin-top: 41vh;
+}
+
+#htri2 {
+    position: absolute;
+    left: -71vh;
+    top: -20vh;
+    width: 28vh;
+}
+
+.box1b {
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 170px;
+    margin-left: 1vh;
+    margin-top: 9vh;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 10px;
+    border-radius: 19px;
+    position: absolute;
+    top: 72vh;
+    left: 2vh;
+}
+
+#pre1c {
+    position: relative;
+    top: -1px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: start;
+}
+
+.rec1 {
+    position: absolute;
+    height: 40px;
+    width: 182px;
+    top: 54.5vw;
+    left: 42%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 6px;
+    font-weight: bold;
+    font-size: 23px;
+    border: 2px solid darkblue;
+}
+
+.rec2 {
+    position: absolute;
+    text-align: center;
+    height: 40px;
+    width: 182px;
+    top: 59vw;
+    left: 42%;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 6px;
+    border: 2px solid darkblue;
+}
+
+#picd1 {
+    position: absolute;
+    top: 115vh;
+    left: 15vh;
+}
+
+#picd2 {
+    position: absolute;
+    top: 120vh;
+    left: 127vh;
+}
+
+#ha {
+    position: absolute;
+    top: 78vw;
+    left: 9vw;
+}
+
+#hb {
+    position: absolute;
+    top: 78vw;
+    left: 66vw;
+}
+
+.lastpg {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 228vw;
+}
+
+#sp3 {
+    position: absolute;
+    top: 5vw;
+    right: 32vw;
+}
+
+#sp3 span {
+    padding: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 24vh;
+}
+
+.round1 {
+    position: absolute;
+    background-color: rgb(25, 21, 38);
+    color: white;
+    height: 30vw;
+    width: 30vw;
+    top: 6vw;
+    border-radius: 0px 190px 190px 0px;
+}
+
+.round2 {
+    position: absolute;
+    background-color: rgb(25, 21, 38);
+    color: white;
+    height: 30vw;
+    width: 30vw;
+    top: 6vw;
+    right: 0vh;
+    border-radius: 190px 0px 0px 190px;
+}
+
+.round1 h1 {
+
+    top: 20px;
+    left: 10px;
+}
+
+#r1h2 {
+    position: absolute;
+    top: 20vh;
+    left: 3vh;
+    width: 48vh;
+    font-size: 28px;
+}
+
+#r1h1 {
+    position: absolute;
+    top: 43px;
+    left: 21px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#r2h1 {
+    position: absolute;
+    top: 8vh;
+    left: 22vh;
+    width: 33vh;
+    font-size: 33px;
+}
+
+#r2h2 {
+    position: absolute;
+
+    top: 26vh;
+    width: 21vh;
+    left: 22vh;
+    font-size: 25px;
+}
+
+#r2h1 {
+    position: absolute;
+
+}
+
+.explore {
+    position: absolute;
+    background-color: white;
+    color: black;
+    height: 8vh;
+    width: 30vh;
+    left: 92vh;
+    top: 19.5vw;
+}
+
+.signup {
+    position: absolute;
+    background-color: white;
+    color: black;
+    height: 8vh;
+    width: 30vh;
+    left: 92vh;
+    top: 14vw;
+}
+
+#s1 {
+    display: flex;
+    padding: 12px 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#s2 {
+    display: flex;
+    padding: 15px;
+    padding-left: 6px;
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+#contact2 {
+    position: absolute;
+    height: 20vh;
+    top: 55vh;
+    left: 45vw;
+}
+
+#lasth1 {
+    position: absolute;
+    top: 37vw;
+    left: 42vw;
+}
+
+#last_png {
+    position: absolute;
+    top: 41vw;
+    left: 29vw;
+}
+
+.footer {
+    position: absolute;
+    top: 289vw;
+    left: 0vw;
+    height: 20vw;
+    width: 100%;
+    background-color: rgb(25, 21, 38);
+    border-radius: 209px 209px 0px 0px;
+}
+
+.lasth {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lasth ul li {
+    padding-left: 39vh;
+}
+
+#lastul1 {
+    position: absolute;
+    top: 15vh;
+}
+
+.div5 {
+    position: absolute;
+    background-color: rgb(25, 21, 38);
+    color: white;
+    top: 297vw;
+    left: 22vw;
+    /* width: 30vh;
+    height: 10vw; */
+}
+
+.div5 li {
+    color: white;
+    padding: 15px;
+}
+
+.div6 {
+    display: inline-block;
+    position: absolute;
+    background-color: rgb(25, 21, 38);
+    color: white;
+    top: 297vw;
+    left: 50vw;
+}
+
+.div6 li {
+    color: white;
+    padding: 15px;
+}
+
+.div6 img {
+    height: 30px;
+    width: 30px;
+}
+
+#fb {
+    position: absolute;
+    top: 1vh;
+    left: -4vh;
+}
+
+#insta {
+    position: absolute;
+    top: 9vh;
+    left: -4vh;
+}
+
+#twitter {
+    position: absolute;
+    top: 17vh;
+    left: -4vh;
+}
+
+.div7 {
+    position: absolute;
+    background-color: rgb(25, 21, 38);
+    color: white;
+    top: 297vw;
+    left: 77vw;
+}
+
+.div7 li {
+    color: white;
+    padding: 15px;
+}

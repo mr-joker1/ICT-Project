@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Signup Form</title>
+    <style>
+        #h2a {
+            position: absolute;
+            color: white;
+            top: 81vh;
+            left: 97vh;
+        }
+
+        #h2b {
+            position: absolute;
+            color: white;
+            top: 61vh;
+            left: 46.5vw;
+        }
+
+        #first:hover {
+            background-color: blue;
+            color: black;
+            transition: all 0.5s linear;
+        }
+
+        #second:hover {
+            background-color: blue;
+            color: black;
+            transition: all 0.5s linear;
+        }
+
+        #pic1 {
+            position: absolute;
+            height: 26vh;
+            width: 17vw;
+            top: 13vh;
+            left: 13vh;
+        }
+
+        #pic2 {
+            position: absolute;
+            height: 24vh;
+            width: 20vw;
+            top: 13vh;
+            right: 13vh;
+        }
+
+        #pic3 {
+            position: absolute;
+            height: 37vh;
+            width: 28vw;
+            top: 63vh;
+            right: 13vh;
+        }
+
+        #pic4 {
+            position: absolute;
+            height: 26vh;
+            width: 16vw;
+            top: 65vh;
+            left: 13vh;
+        }
+    </style>
+</head>
+
+<body>
+    <img id="pic1" src="Drone2.jpg" alt="drone">
+    <img id="pic2" src="Drone1.png" alt="drone">
+    <img id="pic3" src="Drone4.jpeg" alt="drone">
+    <img id="pic4" src="Drone5.jpeg" alt="drone">
+    <form action="#" id="signupForm">
+        <h1>SignUp Form</h1>
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Your Name" required>
+
+        <label for="FatherName">Father Name:</label>
+        <input type="text" name="name" placeholder="Your Father's Name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Your Email" required>
+
+        <label for="Address">Address:</label>
+        <input type="text" name="Address" placeholder="Your Address" required>
+
+        <label for="Password">Password:</label>
+        <input type="password" name="password" placeholder="Password" required>
+
+        <input id="first" type="button" name="submit"><a href="index.html">
+            <h2 id="h2a">Sign-Up</h2>
+        </a>
+
+
+    </form>
+
+    <form action="##" id="loginForm">
+        <h1>Login Form</h1>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Your Email" required>
+
+
+        <label for="Password">Password:</label>
+        <input type="password" name="password" placeholder="Password" required>
+
+        <input id="second" type="button" name="submit"><a href="index.html">
+            <h2 id="h2b">Login</h2>
+        </a>
+
+
+    </form>
+    <button onclick="Switch()">Switch to Login</button>
+    <script>
+        function Switch() {
+            var signupForm = document.getElementById("signupForm");
+            var loginForm = document.getElementById("loginForm");
+
+            if (signupForm.style.display === "none") {
+                signupForm.style.display = "block";
+                loginForm.style.display = "none";
+                document.querySelector('button').innerText = "Switch to Login";
+            } else {
+                signupForm.style.display = "none";
+                loginForm.style.display = "block";
+                document.querySelector('button').innerText = "Switch to Signup";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
